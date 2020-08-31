@@ -12,6 +12,7 @@ public class BootCrudRestAppClientApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext ctx=SpringApplication.run(BootCrudRestAppClientApplication.class, args);
 		BookServiceClient service=	ctx.getBean(BookServiceClient.class);
+		System.out.println(ctx.getClass().getName());
 		service.saveBook();
 	}
 
