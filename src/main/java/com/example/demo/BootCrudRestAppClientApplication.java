@@ -16,7 +16,7 @@ public class BootCrudRestAppClientApplication {
 		System.out.println(ctx.getClass().getName());
 		System.out.println("hello-hii");
 
-		System.out.println("pawan");
+		
 
 		service.saveBook();
 	}
