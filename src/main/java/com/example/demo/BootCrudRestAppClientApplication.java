@@ -14,7 +14,7 @@ public class BootCrudRestAppClientApplication {
 		BookServiceClient service=	ctx.getBean(BookServiceClient.class);
 
 		System.out.println(ctx.getClass().getName());
-		System.out.println("hello");
+		System.out.println("hello-hii");
 
 		
 
